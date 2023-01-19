@@ -35,6 +35,18 @@ nav:
   - CS笔记: http://cs.haohaha.cn
   - 我爱OS: http://os.haohaha.cn
   - 闲聊波尔卡: http://chat.haohaha.cn 
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: false
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.arithmatex
+
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
 extra:
